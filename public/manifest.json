@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "gitStalker",
+  "name": "Simple git stalker for viewing profiles",
   "icons": [
     {
       "src": "favicon.ico",

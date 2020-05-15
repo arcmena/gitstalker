@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  color: rgb(63, 63, 63);
+}

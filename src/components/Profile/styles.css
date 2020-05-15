@@ -1,0 +1,48 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.profile img{
+    height: 350px;
+    padding: 2px;
+    border: 2px solid #30303030;
+    border-radius: 5px;
+}
+
+.principalData{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.151);
+    margin: 5px 10px;
+    padding-bottom: 10px;
+}
+
+#bio{
+    margin: 10px auto;
+}
+
+.follow{
+    display: flex;
+    align-content: space-between;
+    padding: 10px;
+}
+
+.follow p{
+    margin: 0 10px;
+}
+
+.profile a{
+    text-decoration: none;
+    color: #1878a8;
+    padding: 10px 20px;
+    border: #1878a8 solid 2px;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.profile a:hover{
+    background: #1878a8;
+    color: #FFF;
+}

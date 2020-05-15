@@ -1,0 +1,45 @@
+.repositories-list{
+    max-width: 700px;
+    padding: 0 20px;
+}
+
+.repositories-list h3{
+    margin-bottom: 20px;
+}
+
+.repositories-list article{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.repositories-list article p{
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.repositories-list article a{
+    text-decoration: none;
+    height: 42px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid #1878a8;
+    display: flex;
+    background: none;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #1878a8;
+    transition: all 0.2s;
+}
+
+.repositories-list article a:hover{
+    background-color: #1878a8;
+    color: #fff;
+}
+
