@@ -14,7 +14,7 @@ class Profile extends Component{
     }
 
     loadProfile = async() =>{
-        const result = await api.get("users/arcmena");
+        const result = await api.get(`users/${this.props.userSearch}`);
 
         console.log(result.data)
 

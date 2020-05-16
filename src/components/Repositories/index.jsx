@@ -8,7 +8,7 @@ class Repositories extends Component{
 
     state = {
         repositories: [],
-        commits: {}
+        user: ''
     }
 
     componentDidMount(){
@@ -16,7 +16,7 @@ class Repositories extends Component{
     }
 
     loadRepos = async() =>{
-        const response = await api.get('users/arcmena/repos');
+        const response = await api.get(`users/${this.props.userSearch}/repos`);
 
         console.log(response.data);
 
@@ -29,7 +29,7 @@ class Repositories extends Component{
     // }
 
     render(){
-        const {repositories, commits} = this.state;
+        const {repositories} = this.state;
 
         return(
             <div className="repositories-list">
