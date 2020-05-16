@@ -33,7 +33,7 @@ class Repositories extends Component{
 
         return(
             <div className="repositories-list">
-                <h3>Repositories</h3>
+                <h3>{repositories.length} repositories found</h3>
                 {repositories.map(repos =>(
                     <article key={repos.id}>
                         <strong>{repos.name}</strong>

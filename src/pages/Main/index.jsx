@@ -16,10 +16,6 @@ export default class Main extends Component{
         this.handleClick = this.handleClick.bind(this);
     }
 
-    // componentDidUpdate(){
-    //     this.handleChange();
-    // }
-
     handleChange(event){
         this.setState({value: event.target.value});
         this.setState({user: ''});
