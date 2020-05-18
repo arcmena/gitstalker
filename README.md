@@ -28,8 +28,7 @@ In the terminal, go to your project folder and use yarn to iniciate webkit and i
 
 ## Usage
 
-The app layout is simple. A searchbox for you to insert the a username, below that the profile information and the user repositories with links
-
+The app layout is simple. A searchbox for you to insert the a username, below that the profile information and the user repositories with links.
 
 ## Author
 
